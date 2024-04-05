@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Doramas Online</title>
+    <link rel="stylesheet" href="css/main_style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="shortcut icon" href="imgs/logo_user/logo - Copia.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header>
+        <div class="nav container">
+            <a href="[1]_main_page.html" class="logo">
+                MyDoramas<span>Online</span>
+            </a>
+            <div class="search-box">
+                <input type="search" name="" id="search-input" placeholder="Search">
+                <i class='bx bx-search'></i>
+            </div>
+            <a href="#" onclick="javascript:abrirJanela('https://t.me/d_orambot', 450, 600);" class="logo2">
+                <i class='bx bxl-telegram'></i>
+            </a>
+            <a href="[1]_main_page.html" class="user">
+                <img src="imgs/logo_user/logo.png" alt="" class="user-img">
+            </a>
+            <div class="navbar">
+                <a href="#popular" class="nav-link nav-active">
+                    <i class='bx bx-home'></i>
+                    <span class="nav-link-title">Home</span>
+                </a>
+                <a href="#popular" class="nav-link">
+                    <i class='bx bxs-hot' ></i>
+                    <span class="nav-link-title">Lançamentos</span>
+                </a>
+                <!-- <a href="#favoritos" class="nav-link">
+                    <i class='bx bx-heart' ></i>
+                    <span class="nav-link-title">Favoritos</span>
+                </a> -->
+                <a href="teste.html" class="nav-link">
+                    <i class='bx bx-heart' ></i>
+                    <span class="nav-link-title">Favoritos</span>
+                </a>
+                <a href="#series" class="nav-link">
+                    <i class='bx bx-tv' ></i>
+                    <span class="nav-link-title">Séries</span>
+                </a>
+                <a href="#filmes" class="nav-link">
+                    <i class='bx bx-movie-play'></i>
+                    <span class="nav-link-title">Filmes</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    
+        <section class="principal-container">
+
+            <section class="popular container" id="popular">
+                <div class="heading">
+                    <h2 class="heading-title">Lançamentos</h2>
+                    <div class="swiper-btn">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <div class="popular-content swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Dorama Box 1 -->
+                        <div class="swiper-slide">
+                            <div class="movie-box-s">
+                                <img src="imgs/doramas_poster_s/2_moons.jpg" alt="" class="movie-box-s-img">
+                                <div class="box-text">
+                                    <h2 class="movie-title">2Moons <br>The Series</h2>
+                                    <span class="movie-type">Tailândia <br>2017</span>
+                                    <a href="[2]_2moons.html" class="watch-btn play-btn">
+                                        <i class='bx bx-right-arrow' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Dorama Box 22 -->
+                        <div class="swiper-slide">
+                            <div class="movie-box-s">
+                                <img src="imgs/doramas_poster_s/to_be_continued.png" alt="" class="movie-box-img">
+                                <div class="box-text">
+                                    <h2 class="movie-title">To Be Continued</h2>
+                                    <span class="movie-type">Tailândia <br>2024</span>
+                                    <a href="[22]_to_be_continued.html" class="watch-btn play-btn">
+                                        <i class='bx bx-right-arrow' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Dorama Box 23 -->
+                        <div class="swiper-slide">
+                            <div class="movie-box-s">
+                                <img src="imgs/doramas_poster_s/the_new_employee.png" alt="" class="movie-box-img">
+                                <div class="box-text">
+                                    <h2 class="movie-title">The New Employee</h2>
+                                    <span class="movie-type">Coreia do Sul <br>2022</span>
+                                    <a href="[23]_the_new_employee.html" class="watch-btn play-btn">
+                                        <i class='bx bx-right-arrow' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Dorama Box 2 -->
+                        <div class="swiper-slide">
+                            <div class="movie-box-s">
+                                <img src="imgs/doramas_poster_s/the_eclipse.png" alt="" class="movie-box-s-img">
+                                <div class="box-text">
+                                    <h2 class="movie-title">The Eclipse</h2>
+                                    <span class="movie-type">Tailândia <br>2022</span>
+                                    <a href="[14]_the_eclipse.html" class="watch-btn play-btn">
+                                        <i class='bx bx-right-arrow' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Dorama Box 3 -->
+                        <div class="swiper-slide">
+                            <div class="movie-box-s">
+                                <img src="imgs/doramas_poster_s/love_tractor.jpeg" alt="" class="movie-box-s-img">
+                                <div class="box-text">
+                                    <h2 class="movie-title">Love Tractor</h2>
+                                    <span class="movie-type">Coreia do Sul <br>2023</span>
+                                    <a href="[7]_love_tractor.html" class="watch-btn play-btn">
+                                        <i class='bx bx-right-arrow' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Dorama Box 4 -->
+                        <div class="swiper-slide">
+                            <div class="movie-box-s">
+                                <img src="imgs/doramas_poster_s/manner_of_death.png" alt="" class="movie-box-s-img">
+                                <div class="box-text">
+                                    <h2 class="movie-title">Manner of Death</h2>
+                                    <span class="movie-type">Tailândia <br>2020</span>
+                                    <a href="[8]_manner_of_death.html" class="watch-btn play-btn">
+                                        <i class='bx bx-right-arrow' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Dorama Box 5 -->
+                        <div class="swiper-slide">
+                            <div class="movie-box-s">
+                                <img src="imgs/doramas_poster_s/semantic_error.png" alt="" class="movie-box-s-img">
+                                <div class="box-text">
+                                    <h2 class="movie-title">Semantic Error</h2>
+                                    <span class="movie-type">Coreia do Sul <br>2022</span>
+                                    <a href="[9]_semantic_error.html" class="watch-btn play-btn">
+                                        <i class='bx bx-right-arrow' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Dorama Box 6 -->
+                        
+                        <!-- Dorama Box 7 -->
+                        
+                      </div>
+                </div>
+            </section>
+
+            <section class="movies container" id="favoritos">
+                <div class="heading">
+                    <h2 class="heading-title">Favoritos</h2>  
+                </div>
+                <div class="movies-content2">
+                        <!-- Dorama Box 1 -->
+                        <div class="swiper-slide2">
+                            <div class="movie-box2">
+                                <img src="imgs/doramas_poster/2_moons.jpg" alt="" class="movie-box2-img">
+                                <div class="box-text">
+                                    <h2 class="movie-title">2Moons <br>The Series</h2>
+                                    <span class="movie-type">Tailândia <br>2017</span>
+                                    <a href="[2]_2moons.html" class="watch-btn play-btn">
+                                        <i class='bx bx-right-arrow' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Dorama Box 2 -->
+                        <div class="swiper-slide2">
+                            <div class="movie-box2">
+                                <img src="imgs/doramas_poster/semantic_error.jpg" alt="" class="movie-box2-img">
+                                <div class="box-text">
+                                    <h2 class="movie-title">Semantic Error</h2>
+                                    <span class="movie-type">Coreia do Sul <br>2022</span>
+                                    <a href="[9]_semantic_error.html" class="watch-btn play-btn">
+                                        <i class='bx bx-right-arrow' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Dorama Box 3 -->
+                        <div class="swiper-slide2">
+                            <div class="movie-box2">
+                                <img src="imgs/doramas_poster/kinn_porsche.jpg" alt="" class="movie-box2-img">
+                                <div class="box-text">
+                                    <h2 class="movie-title">KinnPorsche <br>La Forte</h2>
+                                    <span class="movie-type">Tailândia <br>2022</span>
+                                    <a href="[6]_kinn_porsche.html" class="watch-btn play-btn">
+                                        <i class='bx bx-right-arrow' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Dorama Box 4 -->
+                        <div class="swiper-slide2">
+                            <div class="movie-box2">
+                                <img src="imgs/doramas_poster/history_3_trapped.jpg" alt="" class="movie-box2-img">
+                                <div class="box-text">
+                                    <h2 class="movie-title">HIStory 3 <br>Trapped</h2>
+                                    <span class="movie-type">Taiwan <br>2019</span>
+                                    <a href="[5]_history_3_trapped.html" class="watch-btn play-btn">
+                                        <i class='bx bx-right-arrow' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Dorama Box 5 -->
+                        <div class="swiper-slide2">
+                            <div class="movie-box2">
+                                <img src="imgs/doramas_poster/bad_buddy.jpg" alt="" class="movie-box2-img">
+                                <div class="box-text">
+                                    <h2 class="movie-title">Bad Buddy <br>The Series</h2>
+                                    <span class="movie-type">Tailândia <br>2021</span>
+                                    <a href="[3]_bad_buddy.html" class="watch-btn play-btn">
+                                        <i class='bx bx-right-arrow' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Dorama Box 6 -->
+                        <div class="swiper-slide2">
+                            <div class="movie-box2">
+                                <img src="imgs/doramas_poster/history_2_crossing_the_line.jpg" alt="" class="movie-box2-img">
+                                <div class="box-text">
+                                    <h2 class="movie-title">HIStory 2 <br>Crossing The Line</h2>
+                                    <span class="movie-type">Taiwan <br>2018</span>
+                                    <a href="[21]_history_2_crossing_the_line.html" class="watch-btn play-btn">
+                                        <i class='bx bx-right-arrow' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Dorama Box 7 -->
+                        <div class="swiper-slide2">
+                            <div class="movie-box2">
+                                <img src="imgs/doramas_poster/together_with_me.jpg" alt="" class="movie-box2-img">
+                                <div class="box-text">
+                                    <h2 class="movie-title">Together With Me <br>The Series</h2>
+                                    <span class="movie-type">Tailândia <br>2017</span>
+                                    <a href="[16]_together_with_me.html" class="watch-btn play-btn">
+                                        <i class='bx bx-right-arrow' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Dorama Box 8 -->
+                        <div class="swiper-slide2">
+                            <div class="movie-box2">
+                                <img src="imgs/filmes_poster/Cherry Magic The Movie.jpg" alt="" class="movie-box2-img">
+                                <div class="box-text">
+                                    <h2 class="movie-title">Cherry Magic <br>The Movie</h2>
+                                    <span class="movie-type">Japão <br>2022</span>
+                                    <a href="z1_cherry_magic_the_movie.html" class="watch-btn play-btn">
+                                        <i class='bx bx-right-arrow' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Dorama Box 9 -->
+                        <!-- Dorama Box 10 -->
+                        <!-- Dorama Box 11 -->
+                        <!-- Dorama Box 12 -->
+                        
+                      </div>
+                </div>
+            </section>
+        
+            <section class="movies container" id="series">
+                <div class="heading">
+                    <h2 class="heading-title">Séries</h2>  
+                </div>
+                <div class="movies-content">
+                    <!-- Dorama Box 2 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/kinn_porsche.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">KinnPorsche <br>La Forte</h2>
+                                <span class="movie-type">Tailândia <br>2022</span>
+                                <a href="[6]_kinn_porsche.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 3 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/the_eclipse.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">The Eclipse</h2>
+                                <span class="movie-type">Tailândia <br>2022</span>
+                                <a href="[14]_the_eclipse.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 4 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/love_tractor.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">Love Tractor</h2>
+                                <span class="movie-type">Coreia do Sul <br>2023</span>
+                                <a href="[7]_love_tractor.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 5 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/manner_of_death.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">Manner of Death</h2>
+                                <span class="movie-type">Tailândia <br>2020</span>
+                                <a href="[8]_manner_of_death.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 6  -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/semantic_error.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">Semantic Error</h2>
+                                <span class="movie-type">Coreia do Sul <br>2022</span>
+                                <a href="[9]_semantic_error.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 7 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/big_dragon.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">Big Dragon <br>The Series</h2>
+                                <span class="movie-type">Tailândia <br>2022</span>
+                                <a href="[4]_big_dragon.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 8 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/history_3_trapped.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">HIStory 3 <br>Trapped</h2>
+                                <span class="movie-type">Taiwan <br>2019</span>
+                                <a href="[5]_history_3_trapped.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 9 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/bad_buddy.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">Bad Buddy <br>The Series</h2>
+                                <span class="movie-type">Tailândia <br>2021</span>
+                                <a href="[3]_bad_buddy.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 10 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/2_moons.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">2Moons <br>The Series</h2>
+                                <span class="movie-type">Tailândia <br>2017</span>
+                                <a href="[2]_2moons.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 11 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/tharn_type.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">TharnType <br>The Series</h2>
+                                <span class="movie-type">Tailândia <br>2019</span>
+                                <a href="[12]_tharn_type.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 12 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/tharn_type_2.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">TharnType 2 <br>7 Years of Love</h2>
+                                <span class="movie-type">Tailândia <br>2020</span>
+                                <a href="[13]_tharn_type_2.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 13 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/the_sign.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">The Sign <br>The Series</h2>
+                                <span class="movie-type">Tailândia <br>2023</span>
+                                <a href="[15]_the_sign.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 14 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/sotus.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">SOTUS <br>The Series</h2>
+                                <span class="movie-type">Tailândia <br>2016</span>
+                                <a href="[10]_sotus.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 15 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/sotus_s.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">SOTUS S <br>The Series</h2>
+                                <span class="movie-type">Tailândia <br>2017</span>
+                                <a href="[11]_sotus_s.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 16 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/together_with_me.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">Together With Me <br>The Series</h2>
+                                <span class="movie-type">Tailândia <br>2017</span>
+                                <a href="[16]_together_with_me.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 17 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/given.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">Given</h2>
+                                <span class="movie-type">Japão <br>2021</span>
+                                <a href="[17]_given.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 18 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/2gether.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">2gether <br>The Series</h2>
+                                <span class="movie-type">Tailândia <br>2020</span>
+                                <a href="[18]_2gether.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 19 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/still_2gether.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">Still 2gether</h2>
+                                <span class="movie-type">Tailândia <br>2020</span>
+                                <a href="[19]_still_2gether.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 20 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/kieta_hatsukoi.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">Kieta Hatsukoi</h2>
+                                <span class="movie-type">Japão <br>2021</span>
+                                <a href="[20]_kieta_hatsukoi.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 21 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/history_2_crossing_the_line.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">HIStory 2 <br>Crossing The Line</h2>
+                                <span class="movie-type">Taiwan <br>2018</span>
+                                <a href="[21]_history_2_crossing_the_line.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 22 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/to_be_continued.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">To Be Continued</h2>
+                                <span class="movie-type">Tailândia <br>2024</span>
+                                <a href="[22]_to_be_continued.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 23 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/doramas_poster/the_new_employee.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">The New Employee</h2>
+                                <span class="movie-type">Coreia do Sul <br>2022</span>
+                                <a href="[23]_the_new_employee.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 23 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <!-- <img src="imgs/doramas_poster/the_new_employee.jpg" alt="" class="movie-box-img"> -->
+                            <div class="box-text">
+                                <!-- <h2 class="movie-title">The New Employee</h2>
+                                <span class="movie-type">Coreia do Sul <br>2022</span>
+                                <a href="[23]_the_new_employee.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 23 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <!-- <img src="imgs/doramas_poster/the_new_employee.jpg" alt="" class="movie-box-img"> -->
+                            <div class="box-text">
+                                <!-- <h2 class="movie-title">The New Employee</h2>
+                                <span class="movie-type">Coreia do Sul <br>2022</span>
+                                <a href="[23]_the_new_employee.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 23 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <!-- <img src="imgs/doramas_poster/the_new_employee.jpg" alt="" class="movie-box-img"> -->
+                            <div class="box-text">
+                                <!-- <h2 class="movie-title">The New Employee</h2>
+                                <span class="movie-type">Coreia do Sul <br>2022</span>
+                                <a href="[23]_the_new_employee.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </section>
+        
+            <section class="movies container" id="filmes">
+                <div class="heading">
+                    <h2 class="heading-title">Filmes</h2>  
+                </div>
+                <div class="movies-content">
+                    <!-- Dorama Box 1 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/filmes_poster/Cherry Magic The Movie.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">Cherry Magic <br>The Movie</h2>
+                                <span class="movie-type">Japão <br>2022</span>
+                                <a href="z1_cherry_magic_the_movie.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 2 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/filmes_poster/just_friends_.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">Just Friends?</h2>
+                                <span class="movie-type">Coreia do Sul <br>2009</span>
+                                <a href="z2_just_friends_.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 3 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/filmes_poster/ai_no_kotodama.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">Ai no Kotodama</h2>
+                                <span class="movie-type">Japão <br>2008</span>
+                                <a href="z3_ai_no_kotodama.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 4 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/filmes_poster/boku_mo_aitsu_mo_shinrodesu.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">Boku mo Aitsu mo Shinrodesu</h2>
+                                <span class="movie-type">Japão <br>2022</span>
+                                <a href="z4_boku_mo_aitsu_mo_shinrodesu.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 5 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="imgs/filmes_poster/semantic_error_the_movie.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                                <h2 class="movie-title">Semantic Error <br>The Movie</h2>
+                                <span class="movie-type">Coreia do Sul <br>2022</span>
+                                <a href="z5_semantic_error_the_movie.html" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 6 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <!-- <img src="imgs/filmes_poster/" alt="" class="movie-box-img"> -->
+                            <div class="box-text">
+                                <h2 class="movie-title"> </h2>
+                                <span class="movie-type"> <br></span>
+                                <!-- <a href="#" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 7 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <!-- <img src="imgs/filmes_poster/" alt="" class="movie-box-img"> -->
+                            <div class="box-text">
+                                <h2 class="movie-title"> </h2>
+                                <span class="movie-type"> <br></span>
+                                <!-- <a href="#" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 8 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <!-- <img src="imgs/filmes_poster/" alt="" class="movie-box-img"> -->
+                            <div class="box-text">
+                                <h2 class="movie-title"> </h2>
+                                <span class="movie-type"> <br></span>
+                                <!-- <a href="#" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 9 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <!-- <img src="imgs/filmes_poster/" alt="" class="movie-box-img"> -->
+                            <div class="box-text">
+                                <h2 class="movie-title"> </h2>
+                                <span class="movie-type"> <br></span>
+                                <!-- <a href="#" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dorama Box 10 -->
+                    <div class="swiper-slide">
+                        <div class="movie-box">
+                            <!-- <img src="imgs/filmes_poster/" alt="" class="movie-box-img"> -->
+                            <div class="box-text">
+                                <h2 class="movie-title"> </h2>
+                                <span class="movie-type"> <br></span>
+                                <!-- <a href="#" class="watch-btn play-btn">
+                                    <i class='bx bx-right-arrow' ></i>
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <div class="copyright">
+                <p>&#169; GabrielHenriq All Rights Reserved</p>
+            </div>
+    
+        </section>
+    
+    <script type="text/javascript">
+        function abrirJanela(pagina, largura, altura) {
+          
+         var esquerda = (screen.width - largura)/2;
+         var topo = (screen.height - altura)/2;
+      
+         minhaJanela = window.open(pagina,'','height=' + altura + ', width=' + largura + ', top=' + topo + ', left=' + esquerda);
+        }
+      </script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/main2.js"></script>
+    
+</body>
+
+</html>

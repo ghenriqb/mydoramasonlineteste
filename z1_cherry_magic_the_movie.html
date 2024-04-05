@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cherry Magic - The Movie</title>
+    <link rel="stylesheet" href="css/main_style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/galery.css">
+    <link rel="shortcut icon" href="imgs/logo_user/logo - Copia.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header>
+        <div class="nav container">
+            <a href="[1]_main_page.html" class="logo">
+                MyDoramas<span>Online</span>
+            </a> 
+            <div class="search-box">
+                <input type="search" name="" id="search-input" placeholder="Search">
+                <i class='bx bx-search'></i>
+            </div>
+            <a href="#" onclick="javascript:abrirJanela('https://t.me/d_orambot', 450, 600);" class="logo2">
+                <i class='bx bxl-telegram'></i>
+                <!-- <span class="nav-link-title">Telegram</span> -->
+            </a>
+            <a href="[1]_main_page.html" class="user">
+                <img src="imgs/logo_user/logo.png" alt="" class="user-img">
+            </a>
+            <div class="navbar">
+                <a href="[1]_main_page.html" class="nav-link nav-active">
+                    <i class='bx bx-home'></i>
+                    <span class="nav-link-title">Home</span>
+                </a>
+                <a href="[1]_main_page.html#popular" class="nav-link">
+                    <i class='bx bxs-hot' ></i>
+                    <span class="nav-link-title">Lançamentos</span>
+                </a>
+                <a href="[1]_main_page.html#favoritos" class="nav-link">
+                    <i class='bx bx-heart' ></i>
+                    <span class="nav-link-title">Favoritos</span>
+                </a>
+                <a href="[1]_main_page.html#series" class="nav-link">
+                    <i class='bx bx-tv' ></i>
+                    <span class="nav-link-title">Séries</span>
+                </a>
+                <a href="[1]_main_page.html#filmes" class="nav-link">
+                    <i class='bx bx-movie-play'></i>
+                    <span class="nav-link-title">Filmes</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    
+        <section class="principal-container">
+
+            <div class="play-container container">
+                
+            <section class="movies container">
+                
+                <!-- Lista de Eps -->
+                <div class="container-ep" id="episodios">
+
+                    <div class="main-video">
+                        <div class="video">
+                            <video src="filmes/Cherry Magic - The Movie.mp4" controls muted autoplay></video>
+                        </div>
+                    </div>
+                
+                    <div class="video-list">
+                        <div class="vid active">
+                            <video poster="imgs/filmes_thumbs/Cherry Magic The Movie.jpg" src="filmes/Cherry Magic - The Movie.mp4" muted></video>
+                            <h3 class="title">Cherry Magic - The Movie</h3>  
+                        </div>
+                        <div class="vid">
+                            <p>Por algum motivo Adachi ainda tem o poder de ler a mente de outras pessoas tocando-as. Ele vive feliz com Kurosawa e está satisfeito com sua vida. No entanto, Adachi recebe uma ordem de transferência para a prefeitura de Nagasaki, que fica a 1200 km de distância. Agora em um relacionamento à distância, os dois começam a pensar no futuro.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </section>
+
+            <div class="copyright">
+                <p>&#169; GabrielHenriq All Rights Reserved</p>
+            </div>
+    
+        </section>
+
+        
+
+    <script type="text/javascript">
+        function abrirJanela(pagina, largura, altura) {
+          
+         var esquerda = (screen.width - largura)/2;
+         var topo = (screen.height - altura)/2;
+      
+         minhaJanela = window.open(pagina,'','height=' + altura + ', width=' + largura + ', top=' + topo + ', left=' + esquerda);
+        }
+    </script>
+    <script>
+        
+        let listVideo = document.querySelectorAll(' .video-list .vid ');
+        let mainVideo = document.querySelector(' .main-video video ');
+        let title = document.querySelector(' .main-video .title ');
+        
+        listVideo.forEach(video =>{
+            video.onclick = () =>{
+                listVideo.forEach(vid => vid.classList.remove('active'));
+                video.classList.add('active');
+                if(video.classList.contains('active')){
+                    let src = video.children[0].getAttribute('src');
+                    mainVideo.src = src;
+                    let text = video.children[1].innerHTML;
+                    title.innerHTML = text;
+                };
+            };
+        });
+        
+    </script>
+    <script src="js/galery.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+
+</html>
